@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+<body>
+<style>
+    body,html{
+        height: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    body {
+        background-position: center;
+        background-size: cover;
+        background-image:url(img/pexels-pixabay-159275.jpg) ;
+    }
+    </style>
+    <body>
+        <header>
+
+            <nav class="navigation">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="service.html">Services</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+            <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+
+                }
+
+                .navigation a {
+                    position: relative;
+                    font-size: 1.1em;
+                    color: white;
+                    text-decoration:none;
+                    font-weight: 500;
+                    margin-left: 40px;
+
+                }
+                .navigation a::after {
+                    content:'';
+                    position: absolute;
+                    left: 0;
+                    bottom: -6px;
+                    width: 100%;
+                    background: white;
+                    border-radius: 5px;
+                    transform-origin: right;
+                    transform: scaleX(0);
+                    transition: transform .5s;
+                }
+                .navigation a:hover::after {
+                    transform-origin: left;
+                    transform: scaleX(1);
+                }
+
+             </style>
+        </div>  
+
+        <br><br>
+        
+        <div class="sidebar-ad">
+            <a href="#">
+                <img src="" alt="sidebar-ad">
+            </a>
+        </div>
+        <style>
+            .sidebar-ad{
+                margin: auto;
+                max-width: 100%;
+                display: block;
+            }
+            .sidebar-ad img{
+                max-width: 20%;
+                display: block;
+            }
+        </style>
+        <div class="display-middle-center">
+            <span class="text-white"style="font-size:90px">PRO <br> AUTOS</span>
+        </div>
+        <div class="sidebar-ad">
+            <a href="#">
+                <img src="img/pexels-dan-cristian-pădureț-1476318.jpg"
+                alt="sidebar-ad">
+            </a>
+        </div>
+        
+    </body>
+    
+</body>
+</html>
